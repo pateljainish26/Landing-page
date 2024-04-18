@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;  
+}
+ html,body {
+    height: 100%;
+    width: 100%;
+ }
+.main{
+    height: 100%;
+    width : 100%;
+    position: relative;
+   background-color:#D0D4D5;
+}
+.nav{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-prt1{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-prt2 {
+    display: flex;
+     justify-content:center;
+     align-items: center;
+}
+.nav-prt2 a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: indianred;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+.register a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+.content{
+    width: 100%;
+    height: calc(100%-110px);
+    position: absolute;
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    padding:50px 50px ;
+    margin-left:20px;
+}
+.left h5{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color:rgb(63, 60, 60);
+}
+.left h1{
+    font-size: 50px;
+    margin-bottom: 55px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.left p{
+    font-size: 18px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.left button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 45px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    text-transform: uppercase;
+}
+.right{
+    
+    height:60%;
+    width: 100%;
+    padding:50px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.elem{
+    height: 500px;
+    width: 250px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba( 0,0,0,0.3);
+    display:flex;
+    justify-content: center;
+    margin-right: 25px;
+    border-radius: 10px;
+    gap: 15px;
+}
+.elem img{
+    border-radius: 10px;
+    height: 300px;
+    width: 160px;
+    top:10%;
+    object-fit: cover; 
+    position: absolute;
+    display: flex;  
+    display: grid;
+    
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #d0d4d5;
+    padding: 17px 34px;
+    border-radius: 6px;  
+}
+.elem h5{
+    position: absolute;
+    bottom:10%;
+    right: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500 ;
+    padding: 17px 34px;
+    border-radius: 6px;  
+}
